@@ -267,6 +267,75 @@ footer nav a:hover {
     padding-left: 2rem;
 }
 
+/* Eyebrow */
+.eyebrow {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.1em;
+    color: var(--amber);
+    margin-bottom: 1rem;
+}
+
+/* Hero Actions */
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.secondary-button {
+    display: inline-block;
+    background: transparent;
+    color: var(--white);
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: 2px solid var(--white);
+    transition: all 0.3s;
+}
+
+.secondary-button:hover {
+    background: var(--white);
+    color: var(--navy);
+}
+
+/* Product Description */
+.product-description {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--slate);
+    max-width: 700px;
+    margin: 0 auto 2rem;
+}
+
+/* Inside Section */
+.inside-section {
+    background: var(--white);
+    border-top: 1px solid var(--soft-gray);
+}
+
+/* Final CTA */
+.final-cta {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--slate) 100%);
+    color: var(--white);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.final-cta h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.final-cta p {
+    font-size: 1.2rem;
+    color: var(--soft-gray);
+    margin-bottom: 2rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     header .container {
