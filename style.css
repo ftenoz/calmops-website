@@ -5,11 +5,12 @@
 }
 
 :root {
-    --navy: #0F172A;
-    --slate: #334155;
-    --soft-gray: #E2E8F0;
-    --amber: #F59E0B;
-    --white: #F8FAFC;
+    --navy: #1F2937;
+    --slate: #4B5563;
+    --soft-gray: #F3F4F6;
+    --amber: #FBBF24;
+    --lemon: #FCD34D;
+    --white: #FFFFFF;
 }
 
 body {
