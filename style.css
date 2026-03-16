@@ -302,6 +302,35 @@ footer nav a:hover {
     color: var(--navy);
 }
 
+/* Social Proof */
+.social-proof {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: var(--soft-gray);
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/* Preview Section */
+.preview {
+    background: var(--soft-gray);
+    padding: 3rem 0;
+}
+
+.preview-image {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+.preview-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Product Description */
 .product-description {
     text-align: center;
